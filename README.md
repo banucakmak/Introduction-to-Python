@@ -1,27 +1,27 @@
-### Introduction-to-Python
+# Introduction-to-Python
 First lesson of the Datascience Bootcamp! I am getting to used to basics of pythonn!!
 
-# It includes examples from;
+It includes examples from;
 
-printing,
+### printing,
 print("Merhaba Dünya")
 
 ------------------------------------------------------------------------------------
-# python as a calculator,
+### python as a calculator,
 
 ![image](https://user-images.githubusercontent.com/122751581/215348250-2d86cf89-e3b6-4b0d-8914-dc9c12cc2b5f.png)
 
 ------------------------------------------------------------------------
-# managing packages, 
+### managing packages, 
 
 import pandas as pd
 
 -----------------------------------------------------------------------------------
-#reading data sets with various extensions from computer memory and website, 
+### reading data sets with various extensions from computer memory and website, 
 df=pd.read_xml("catalog.xml")
 
 -------------------------------------------------------
-#some basic commands for exploratory data analysis,  
+### some basic commands for exploratory data analysis,  
 
 df.head()
 
@@ -31,7 +31,7 @@ plt.xticks(rotation=90);
 ![image](https://user-images.githubusercontent.com/122751581/215348440-43728610-6921-407b-8ba3-a5084255f21b.png)
 
 ------------------------------------------------
-# feature engineering 
+### feature engineering 
 
 df['Survived'].value_counts()
 d={1.0:"Hayatta",0.0:"öldü"}
@@ -40,7 +40,7 @@ df['Survived']=df['Survived'].map(d)
 ![image](https://user-images.githubusercontent.com/122751581/215348466-d867bb47-e9ec-47dc-848a-23b3668ed3bf.png)
 
 ---------------------------------------
-# and text audio output.
+### and text audio output.
 
 from gtts import gTTS
 
