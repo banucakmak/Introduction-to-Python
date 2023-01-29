@@ -1,5 +1,5 @@
 # Introduction-to-Python
-First lesson of the Datascience Bootcamp! I am getting to used to basics of pythonn!!
+It is from the lesson of the Datascience Bootcamp! I am getting to used to basics of python. Here you can also do the same practiced to have some idea before starting an actual project.
 
 It includes examples from;
 
